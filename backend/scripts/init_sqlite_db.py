@@ -81,6 +81,7 @@ def main() -> None:
     Base.metadata.create_all(bind=engine)
     print(f"Tables created. Database file: {settings.DATABASE_URL}")
     seed_demo_account()
+    
 
 
 if __name__ == "__main__":
