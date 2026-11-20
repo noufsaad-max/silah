@@ -1,0 +1,23 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.6
+sqlalchemy>=2.0.35
+alembic>=1.13.2
+pydantic>=2.9.2
+email-validator>=2.0.0
+pydantic-settings>=2.5.2
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.0.0
+python-multipart>=0.0.9
+pytest>=8.3.2
+httpx>=0.27.0
+# PostgreSQL driver is intentionally NOT here -- it's only needed for the
+# real Postgres deployment, not the SQLite quick-test path, and its build
+# can fail on platforms without a matching prebuilt wheel (pg_config not
+# found). See requirements-postgres.txt and README.md.
+#
+# Versions above are floors (>=), not exact pins -- this lets pip pick the
+# newest release with a prebuilt wheel for your Python version/platform.
+# Exact pins (==) are more reproducible but are what caused the
+# pydantic-core Rust build failure: an old pinned version with no wheel for
+# a newer Python forces pip to compile from source, which needs a Rust
+# toolchain most machines don't have set up.

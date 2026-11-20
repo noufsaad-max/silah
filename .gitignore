@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+
+# Env (real secrets) -- keep the committed *.example templates
+.env
+.env.*
+*.env
+*.env.local
+!.env.example
+!.env.*.example
+!*.env.example
+
+# Local databases
+silah_dev.db
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# OS
+.DS_Store

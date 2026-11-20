@@ -1,0 +1,10 @@
+# Only needed for the real PostgreSQL deployment (Docker or a local Postgres
+# instance) -- NOT needed for the SQLite quick-test path.
+#
+#   pip install -r requirements.txt -r requirements-postgres.txt
+#
+# Left unpinned (rather than ==2.9.9) so pip can pick whichever recent
+# version has a prebuilt wheel for your platform/Python version -- pinning
+# to an exact old version is what causes the "pg_config not found" build
+# error on newer Python versions.
+psycopg2-binary>=2.9.9

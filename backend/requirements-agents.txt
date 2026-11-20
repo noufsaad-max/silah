@@ -1,0 +1,20 @@
+# Dependencies needed ONLY to run the real Product / Fit / Outreach agents
+# (app/agents/adapters/real_*.py + app/agents/vendor/). Kept separate from
+# requirements.txt so the fast SQLite/auth-only quick-test path isn't
+# forced to install sentence-transformers (a large package with a
+# multi-hundred-MB PyTorch dependency) just to run auth/onboarding.
+#
+# Install with:
+#   pip install -r requirements.txt -r requirements-agents.txt
+#
+# See app/agents/vendor/CHANGES.md for the exact env vars each agent needs
+# (LLM_MODEL / LLM_API_KEY / LLM_BASE_URL for agent1+agent3,
+# SILAH_OPENAI_API_KEY / SILAH_OPENAI_BASE_URL for agent2).
+
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+tenacity>=8.2.0
+openai>=1.40.0
+sentence-transformers>=3.0.0
+numpy>=1.26.0
+python-dotenv>=1.0.0

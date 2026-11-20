@@ -1,0 +1,7 @@
+# Needed only for app/integrations/supabase/database.py (the agent-pipeline
+# persistence layer: products/runs/prospects/outreach). Kept separate so the
+# auth-only SQLite quick-test path doesn't need it.
+#
+# Install with:
+#   pip install -r requirements.txt -r requirements-supabase.txt
+supabase>=2.6.0
