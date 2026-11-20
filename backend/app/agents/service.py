@@ -155,7 +155,7 @@ class PipelineService:
                 research_status="scored",
             )
             for company in ranked
-            if company.eligible  # only companies that actually reached Stage 2 scoring
+            if company.eligible   # only companies that actually reached Stage 2 scoring
         ]
 
         return {"status": "ready", "product": product_row, "run": run_row, "prospects": prospect_rows}
