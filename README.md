@@ -1,4 +1,4 @@
-# Silah | صلة
+ # Silah | صلة
 
 Bilingual (AR/EN) B2B multi-agent outbound growth platform.
 
