@@ -1,4 +1,4 @@
-"""
+ """
 Offline verification of the agent-pipeline orchestration: schemas, mock
 adapters, PipelineService, and the Supabase persistence contract shape --
 everything that does NOT require fastapi/sqlalchemy/langchain/openai/
