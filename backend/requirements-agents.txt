@@ -1,4 +1,4 @@
-# Dependencies needed ONLY to run the real Product / Fit / Outreach agents
+ # Dependencies needed ONLY to run the real Product / Fit / Outreach agents
 # (app/agents/adapters/real_*.py + app/agents/vendor/). Kept separate from
 # requirements.txt so the fast SQLite/auth-only quick-test path isn't
 # forced to install sentence-transformers (a large package with a
