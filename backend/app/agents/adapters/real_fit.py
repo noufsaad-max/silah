@@ -1,4 +1,4 @@
-"""
+ """
 Adapter wrapping the real Fit/Qualification Agent vendored from
 ghadahHameed/silah-multi-agent-SDA (branch agent-2). See
 app/agents/vendor/agent2_qualification/ and vendor/CHANGES.md.
