@@ -1,4 +1,4 @@
-"""Agent 2 — Qualification & Prioritization for SILAH.
+ """Agent 2 — Qualification & Prioritization for SILAH.
 
 Agent 2 takes a list of candidate companies — already filtered by city by
 Agent 1 — computes a fit score for each one, then returns the top-N ranked
