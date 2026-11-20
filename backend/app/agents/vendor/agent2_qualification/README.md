@@ -9,7 +9,7 @@ one-sentence buyer profile are inferred from it automatically.
 
 ## Pipeline position
 
-```
+``` 
 Product Input + Prospect Data
         ↓
 Agent 1: Product Understanding + city filter
