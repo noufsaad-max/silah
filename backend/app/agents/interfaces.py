@@ -15,7 +15,7 @@ from app.agents.schemas import (
     OutreachRequest,
     RankedCompany,
 )
-
+ 
 
 class ProductAgent(ABC):
     @abstractmethod
