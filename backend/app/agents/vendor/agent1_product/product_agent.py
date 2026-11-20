@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 
 
 load_dotenv()
-
+ 
 
 ALLOWED_INDUSTRIES = [
     "Agriculture Investment",
