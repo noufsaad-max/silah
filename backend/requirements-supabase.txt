@@ -5,3 +5,4 @@
 # Install with:
 #   pip install -r requirements.txt -r requirements-supabase.txt
 supabase>=2.6.0
+ 
