@@ -9,7 +9,7 @@ Agent 1 does **not** search, score, or rank companies.
 ## Pipeline position
 
 ```text
-User Input
+User Input 
     ↓
 Agent 1: Prospect Discovery   ← this component
     ↓
