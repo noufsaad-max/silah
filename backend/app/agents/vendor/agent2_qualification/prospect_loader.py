@@ -10,7 +10,7 @@ Rows that are blank or missing a company_id/company_name are skipped rather
 than raising, so a few malformed rows never abort the whole batch. No missing
 company information is ever invented.
 """
-
+ 
 import csv
 import logging
 
