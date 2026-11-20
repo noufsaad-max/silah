@@ -1,4 +1,4 @@
-"""Two-stage hybrid scoring for Agent 2 (Qualification & Prioritization).
+ """Two-stage hybrid scoring for Agent 2 (Qualification & Prioritization).
 
 fit_score = 0.30*industry_score + 0.30*revenue_score + 0.40*description_score
 
