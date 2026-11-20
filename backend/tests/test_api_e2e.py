@@ -1,4 +1,4 @@
-"""
+ """
 Real end-to-end test of the actual FastAPI app: register -> login -> me ->
 onboarding -> the full agent pipeline over real HTTP requests (via
 FastAPI's TestClient, which runs the real ASGI app in-process -- this is
