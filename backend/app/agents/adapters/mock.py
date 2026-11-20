@@ -1,4 +1,4 @@
-"""
+ """
 Deterministic fake agents so every downstream screen and test can be built
 without live LLM calls. Match the shapes the real agents produce (see
 app/agents/schemas.py) so swapping in RealProductAgent / RealFitAgent /
