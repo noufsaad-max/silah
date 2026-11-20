@@ -1,4 +1,4 @@
-"""
+ """
 Adapter wrapping the real Product/ICP Agent vendored from
 ghadahHameed/silah-multi-agent-SDA (branch agent-1). See
 app/agents/vendor/agent1_product/ and vendor/CHANGES.md.
