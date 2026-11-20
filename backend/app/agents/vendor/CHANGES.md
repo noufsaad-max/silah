@@ -7,7 +7,7 @@ original as possible; every deviation is listed here so it's never confused
 with the authors' own code.
 
 ## Not copied
-
+ 
 - `agent2_qualification/demo_agent2_run.py` -- an interactive CLI
   (`input()`-driven) for manually exercising Agent 2. Not needed by the
   backend, which calls `scoring.rank_prospects` directly (see
