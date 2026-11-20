@@ -4,7 +4,7 @@ vendor agent's own module) so callers never need to import vendor code
 directly just to catch an error -- see docs/01-architecture.md.
 """
 
-
+ 
 class AgentClarificationNeeded(Exception):
     """
     Raised when an agent cannot proceed without more information from the
