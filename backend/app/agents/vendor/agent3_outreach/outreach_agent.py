@@ -11,7 +11,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # 1. Load Environment Variables (Ensure OPENAI_API_KEY is in your .env file)
 load_dotenv()
 
-# 2. Tool Definition
+# 2. Tool Definition 
 @tool
 def send_email_tool(to_email: str, subject: str, body: str) -> str:
     """Use this custom tool to prepare the email for sending."""
