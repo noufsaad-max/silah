@@ -1,4 +1,4 @@
-"""Tunable constants for Agent 2 scoring.
+ """Tunable constants for Agent 2 scoring.
 
 Everything that affects a score lives here so thresholds can be tuned without
 touching the scoring logic itself, and so the same input always produces the
