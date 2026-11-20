@@ -37,7 +37,7 @@ class SenderInfo(BaseModel):
     company_name: str
     email: str
     phone: str
-
+ 
 
 class SearchPreferences(BaseModel):
     preferred_city: str | None = None
