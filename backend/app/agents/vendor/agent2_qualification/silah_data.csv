@@ -1,4 +1,4 @@
-company_id;company_name;industry;location;business_description;website;email;revenue_sar
+ company_id;company_name;industry;location;business_description;website;email;revenue_sar
 SA-001;Saudi Telecom Company (stc);Telecommunications;Riyadh;Telecommunications and digital services provider serving consumers and enterprises.;www.sauditelec.com.sa;info@sauditelec.com.sa;27366000000
 SA-002;Elm Company;Information Technology;Riyadh;Digital solutions company providing government and enterprise technology services.;www.elmcompany.com.sa;;5896000000
 SA-003;solutions by stc;Information Technology;Riyadh;ICT services provider focused on digital infrastructure, cloud, cybersecurity and managed services.;;;5445500000
