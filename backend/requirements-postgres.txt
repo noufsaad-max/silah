@@ -8,3 +8,4 @@
 # to an exact old version is what causes the "pg_config not found" build
 # error on newer Python versions.
 psycopg2-binary>=2.9.9
+ 
