@@ -1,4 +1,4 @@
-"""
+ """
 Adapter wrapping the real Outreach Agent vendored from
 ghadahHameed/silah-multi-agent-SDA (branch agent-3). See
 app/agents/vendor/agent3_outreach/ and vendor/CHANGES.md.
