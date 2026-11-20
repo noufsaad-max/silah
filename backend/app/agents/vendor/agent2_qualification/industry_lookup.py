@@ -11,7 +11,7 @@ appear in the prospect dataset (see ``silah_data.csv``). Adjacency is
 symmetric: listing ``"Banking": {"Insurance"}`` also treats "Insurance"
 prospects as adjacent to an ICP industry of "Banking".
 """
-
+ 
 from difflib import SequenceMatcher
 from functools import lru_cache
 
